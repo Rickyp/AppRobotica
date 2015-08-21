@@ -20,6 +20,7 @@ namespace AppRobotica
         private void Form1_Load(object sender, EventArgs e)
         {
             //This is a comment
+            // This is another comment
         }
     }
 }
