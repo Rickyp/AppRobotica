@@ -19,9 +19,14 @@ namespace AppRobotica
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //This is a comment
-            // This is another comment
-            //last
+    
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form2 m = new Form2();
+            m.Show();
+            this.Hide();
         }
     }
 }
