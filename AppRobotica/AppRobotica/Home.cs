@@ -10,11 +10,14 @@ using System.Windows.Forms;
 
 namespace AppRobotica
 {
-    public partial class Form1 : Form
+    public partial class Home : Form
     {
-        public Form1()
+        public Home()
         {
             InitializeComponent();
+
+            this.StartPosition = FormStartPosition.CenterScreen;
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
